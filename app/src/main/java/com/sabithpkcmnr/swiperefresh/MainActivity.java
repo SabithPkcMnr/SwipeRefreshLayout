@@ -3,9 +3,10 @@ package com.sabithpkcmnr.swiperefresh;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.os.Handler;
-import android.support.v4.widget.SwipeRefreshLayout;
-import android.support.v7.app.AppCompatActivity;
 import android.widget.TextView;
+
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -37,6 +38,7 @@ public class MainActivity extends AppCompatActivity {
                         swipeRefreshLayout.setRefreshing(false);
                     }
                 }, 3000);
+
             }
         });
     }

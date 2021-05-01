@@ -3,9 +3,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@android:color/white"
     tools:context="com.sabithpkcmnr.swiperefresh.MainActivity">
 
-    <android.support.v4.widget.SwipeRefreshLayout
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
         android:id="@+id/mySwipe"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
@@ -18,7 +19,6 @@
             android:text="My Text"
             android:textSize="30sp" />
 
-    </android.support.v4.widget.SwipeRefreshLayout>
-
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
 
 </RelativeLayout>

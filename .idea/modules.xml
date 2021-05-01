@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/SwipeRefresh.iml" filepath="$PROJECT_DIR$/SwipeRefresh.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/SwipeRefreshLayout.iml" filepath="$PROJECT_DIR$/.idea/SwipeRefreshLayout.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/SwipeRefreshLayout.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/SwipeRefreshLayout.app.iml" />
     </modules>
   </component>
 </project>
